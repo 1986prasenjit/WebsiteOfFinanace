@@ -1,0 +1,42 @@
+.heroImgContainer{
+    width: 99.2vw;
+    position: relative;
+}
+.heroImg {
+    width: 100%;
+    filter: blur(2px);
+    object-fit: cover;
+}
+.heroTextH2{
+    position: absolute;
+    top: 25%;
+    left:9%;
+    max-width: 55rem;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+.heroTextPara{
+    position: absolute;
+    top: 38%;
+    left:11%;
+    max-width: 49.5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left:11%;
+    background-color: rgb(56, 118, 234);
+    padding: 1.5rem;
+    width: 8%;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
