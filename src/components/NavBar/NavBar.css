@@ -35,4 +35,20 @@
     color: rgba(6, 125, 237, 0.939);
     font-weight: 300;
   }
-  
+  .menuIcon{
+    display: none;
+  }
+  .menuClose{
+    display: none;
+  }
+  @media (max-width:920px) {
+    .navbar {
+      justify-content: space-between;
+  }
+  .nav-links {
+    display: none;
+}
+.menuIcon{
+  display: block;
+}
+  }

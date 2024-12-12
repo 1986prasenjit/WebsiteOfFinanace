@@ -1,0 +1,32 @@
+.aboutSection {
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+}
+.aboutContainer {
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+.aboutTextContainer {
+    width: 100%;
+    max-width: 58rem;
+}
+.aboutTextContainer h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.aboutTextContainer p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.aboutImg {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+}

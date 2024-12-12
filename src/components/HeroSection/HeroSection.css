@@ -1,37 +1,40 @@
-.heroImgContainer{
-    width: 99.2vw;
-    position: relative;
+.heroImgContainer {
+    width: 100%;
+    background-color: rgba(149, 146, 146, 0.155);
 }
 .heroImg {
     width: 100%;
     filter: blur(2px);
-    object-fit: cover;
+    object-fit: contain;
+    position: relative;
 }
-.heroTextH2{
+.heroTextH2 {
     position: absolute;
-    top: 25%;
-    left:9%;
+    top: 25rem;
+    left: 16rem;
     max-width: 55rem;
     color: white;
     font-size: 4.5rem;
     font-weight: 500;
+    text-align: left;
 }
-.heroTextPara{
+.heroTextPara {
     position: absolute;
-    top: 38%;
-    left:11%;
-    max-width: 49.5rem;
+    top: 40rem;
+    left: 16rem;
+    max-width: 49rem;
     color: white;
     font-size: 2rem;
     font-weight: 300;
+    text-align: left;
 }
-.btn{
+.btn {
     position: absolute;
-    top: 50%;
-    left:11%;
+    top: 54rem;
+    left: 16rem;
     background-color: rgb(56, 118, 234);
     padding: 1.5rem;
-    width: 8%;
+    width: 15rem;
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -39,4 +42,98 @@
     align-items: center;
     justify-content: space-evenly;
     cursor: pointer;
+}
+@media (max-width: 920px) {
+    .heroTextH2 {
+        top: 22rem;
+        left: 14rem;
+        max-width: 50rem;
+        color: white;
+        font-size: 4rem;
+    }
+    .heroTextPara {
+        top: 35rem;
+        left: 14rem;
+        max-width: 45rem;
+        font-size: 1.5rem;
+    }
+    .btn {
+        top: 45rem;
+        width: 12rem;
+        padding: 1rem;
+        left: 14rem;
+    }
+}
+@media (max-width: 690px) {
+
+    .heroImgContainer {
+        display: block;
+        width: 100%;
+        background-color: rgba(149, 146, 146, 0.155);
+    }
+    .heroImg {
+        filter: blur(1px);
+    }
+    .heroTextH2 {
+        top: 12rem;
+        left: 10rem;
+        max-width: 50rem;
+        color: white;
+        font-size: 3.5rem;
+    }
+    .heroTextPara {
+        top: 25rem;
+        left: 10rem;
+        max-width: 45rem;
+        font-size: 1.5rem;
+    }
+    .btn {
+        top: 35rem;
+        width: 12rem;
+        padding: 0.8rem;
+        left: 10rem;
+    }
+    
+}
+@media (max-width: 510px) {
+    .heroTextH2 {
+        top: 8rem;
+        left: 6rem;
+        max-width: 40rem;
+        color: white;
+        font-size: 2.5rem;
+    }
+    .heroTextPara {
+        top: 16rem;
+        left: 6rem;
+        max-width: 35rem;
+        font-size: 1.5rem;
+    }
+    .btn {
+        top: 28rem;
+        width: 12rem;
+        padding: 0.8rem;
+        left: 6rem;
+    }
+}
+@media (max-width: 400px) {
+    .heroTextH2 {
+        top: 8rem;
+        left: 6rem;
+        max-width: 30rem;
+        color: white;
+        font-size: 2.2rem;
+    }
+    .heroTextPara {
+        top: 15rem;
+        left: 6rem;
+        max-width: 30rem;
+        font-size: 1.2rem;
+    }
+    .btn {
+        top: 22rem;
+        width: 12rem;
+        padding: 0.8rem;
+        left: 6rem;
+    }
 }

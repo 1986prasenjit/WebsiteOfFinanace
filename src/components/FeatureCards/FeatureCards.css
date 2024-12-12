@@ -1,0 +1,123 @@
+.featureCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.featureCardContents {
+    width: 20%;
+    position: relative;
+    margin-bottom: 18rem;
+}
+.featureCardImg {
+    width: 100%;
+}
+.featureCardText {
+    position: absolute;
+    top: 10rem;
+    left: 5%;
+    right: 5%;
+    background-color: #fefefefe;
+    color: black;
+    padding: 2rem;
+}
+.featureCardText h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.featureCardText p {
+    text-align: left;
+    font-size: 1.5rem;
+}
+@media (max-width: 1370px) {
+    .featureCardContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    .featureCardContents {
+        width: 20%;
+        position: relative;
+        margin-bottom: 18rem;
+    }
+    .featureCardImg {
+        width: 100%;
+    }
+    .featureCardText {
+        position: absolute;
+        top: 10rem;
+        left: 5%;
+        right: 5%;
+        background-color: #fefefefe;
+        color: black;
+        padding: 2rem;
+    }
+    .featureCardText h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    .featureCardText p {
+        text-align: left;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 970px) {
+    .featureHeadingText {
+        width: 100%;
+        max-width: 60rem;
+        margin-top: 8rem;
+    }
+    .featureHeadingText h2 {
+        font-weight: 300;
+        font-size: 2.3rem;
+    }
+    .featureHeadingText p {
+        font-size: 1.2rem;
+    }
+    .featureCardContents {
+        width: 30%;
+        position: relative;
+        margin-bottom: 16rem;
+    }
+    .featureCardText {
+        position: absolute;
+        top: 12rem;
+        left: 5%;
+        right: 5%;
+        background-color: #fefefefe;
+        color: black;
+        padding: 1.5rem;
+    }
+    .featureCardText h3 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-bottom: 1.2rem;
+    }
+
+}
+@media (max-width: 730px) {
+    .featureHeadingText {
+        width: 100%;
+        max-width: 55rem;
+        margin-top: 8rem;
+    }
+    .featureCardContents {
+        width: 30%;
+        position: relative;
+        margin-bottom: 20rem;
+    }
+    .featureCardText {
+        position: absolute;
+        top: 10rem;
+        left: 5%;
+        right: 5%;
+        background-color: #fefefefe;
+        color: black;
+        padding: 1.5rem;
+    }
+}

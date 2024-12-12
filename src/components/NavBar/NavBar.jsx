@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdOutlineClose } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -12,9 +14,11 @@ const Navbar = () => {
         <li><Link to="/service">Services</Link></li>
         <li><Link to="/feature">Feature</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/blogs">Blog</Link></li>
         <li><Link to="/works">Works</Link></li>
       </ul>
+      <GiHamburgerMenu className='menuIcon'/>
+      <MdOutlineClose className='menuClose'/>
     </nav>
   );
 };
