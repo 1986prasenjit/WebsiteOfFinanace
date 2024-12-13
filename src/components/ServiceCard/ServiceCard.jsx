@@ -42,12 +42,12 @@ const ServiceCard = () => {
   ];
 
   return (
-    <section className="services-section">
+    <section className="servicesSection">
       <h2>We Provide Huge Range of Services</h2>
       <p>Holistically transform excellent systems rather than collaborative leadership. Credibly pursue compelling outside-the-box solutions.</p>
-      <div className="services-grid">
+      <div className="servicesGrid">
         {services.map((service, index) => (
-          <div className="service-item" key={index}>
+          <div className="serviceItem" key={index}>
             <img src={service.icon} alt={`${service.title} Icon`} />
             <h3>{service.title}</h3>
             <p>{service.description}</p>

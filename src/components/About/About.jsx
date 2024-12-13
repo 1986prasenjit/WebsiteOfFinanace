@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import Diya from '../../assets/images/aboutImg.jpeg'
+import aboutImg from '../../assets/images/aboutImg.jpg'
 
 function About() {
   return (
@@ -13,7 +13,7 @@ function About() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum soluta laboriosam, quibusdam adipisci minus.</p>
                 </div>
                 <div className="aboutImgContainer">
-                    <img src={Diya} alt="This is our Community Image" />
+                    <img src={aboutImg} alt="This is our Community Image" className='aboutImg' />
                 </div>
             </div>
         </section>
