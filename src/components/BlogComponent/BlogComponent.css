@@ -22,3 +22,19 @@
     padding: 2rem;
     font-size: 2rem;
 }
+.loadingText {
+    font-size: 8rem;
+    font-weight: 800;
+    background: linear-gradient(189deg, rgba(138,27,213,1) 13%, rgba(51,42,226,1) 56%, rgba(252,176,69,1) 99%);background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,110,0.9528186274509804) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30rem;
+}
+.errorText {
+    font-size: 8rem;
+    font-weight: 800;
+    background: linear-gradient(189deg, rgba(138,27,213,1) 13%, rgba(51,42,226,1) 56%, rgba(252,176,69,1) 99%);background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,110,0.9528186274509804) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30rem;
+}

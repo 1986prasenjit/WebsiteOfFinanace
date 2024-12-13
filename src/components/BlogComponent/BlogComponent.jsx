@@ -25,8 +25,8 @@ function BlogComponent() {
   useEffect(() => {
     fetchData();
   }, []);
-  if(loadingData)return <h3>Loading</h3>
-  if(error)return <h3>Error</h3>
+  if(loadingData)return <h3 className="loadingText">Loading.......</h3>
+  if(error)return <h3 className="errorText">Error.....</h3>
   return (
     <>
       <section className="postMainContainer">
